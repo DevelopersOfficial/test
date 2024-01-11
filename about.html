@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Page</title>
+</head>
+<body>
+  <h1>About Page Content</h1>
+  <button id="openAboutPageBtn">Open About Page</button>
+
+  <script>
+    const { ipcRenderer } = require('electron');
+
+    document.getElementById('openAboutPageBtn').addEventListener('click', () => {
+      ipcRenderer.send('navigate', 'index');
+    });
+  </script>
+</body>
+</html>

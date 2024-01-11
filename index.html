@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Main Window</title>
+</head>
+<body>
+  <div class="container">
+    <div class="menu-bar-container">
+<div class="menu-bar"></div>
+<div class="menu-content">
+  <p class="p" style="color: #b1b1b8; padding: 10px 20px;">EXPLORER</p>
+  <p class="p" style="color: white; padding: 10px 20px; font-weight: bold;">TEST</p>
+
+</div>
+    </div>
+    <div class="content-bar">
+      <div class="tab"></div>
+    </div>
+  </div>
+</body>
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+  }
+  .container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #1e1e1e;
+    color: white;
+    flex-direction: row;
+
+  }
+  .menu-bar-container{
+    background-color: #252526;
+    height: 100%;
+    width: 14%;
+    display: flex;
+    color: white;
+    flex-direction: row;
+  }
+  .menu-bar{
+    background-color: #333333;
+    height: 100%;
+    width: 23%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+  }
+  .menu-content{
+    height: 100%;
+    width: 77%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+  }
+  .content-bar{
+    height: 100%;
+    width: 86%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+  }
+  .tab{
+    background-color: #2d2d2d;
+    width: 100%;
+    height: 30px;
+  }
+</style>
+</html>
